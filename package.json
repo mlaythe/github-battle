@@ -1,0 +1,31 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaythe/github-battle.git"
+  },
+  "author": "Michael Laythe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaythe/github-battle/issues"
+  },
+  "homepage": "https://github.com/mlaythe/github-battle#readme",
+  "dependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.15.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
