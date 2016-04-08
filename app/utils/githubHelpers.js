@@ -15,7 +15,11 @@ var helpers = {
     return axios.all(players.map(username => {
       return getUserInfo(username);
     })).then(info => {
-      console.log(info);
+      return info.map(user => {
+        return user.data;
+      });
+    }).catch(err => {
+      console.warn('error found in getPlayersInfo', err);
     });
   }
 };
