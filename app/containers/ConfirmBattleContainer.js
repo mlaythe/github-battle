@@ -22,13 +22,13 @@ var ConfirmBattleContainer = React.createClass({
         });
       });
   },
-  handleInitiateBattle: () => {
+  handleInitiateBattle: function () {
     this.context.router.push({
       pathname: '/results',
       state: {
         playersInfo: this.state.playersInfo
       }
-    });
+    })
   },
   render: function() {
     return (
