@@ -7,7 +7,7 @@ var Link = require('react-router').Link;
 var MainContainer = require('./MainContainer');
 var Loading = require('./Loading');
 
-var StartOver = () => {
+function StartOver() {
   return (
     <div className='col-sm-12' style={styles.space}>
       <Link to='playerOne'>

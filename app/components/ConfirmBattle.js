@@ -7,7 +7,7 @@ var UserDetailsWrapper = require('./UserDetailsWrapper');
 var MainContainer = require('./MainContainer');
 var Loading = require('./Loading');
 
-var ConfirmBattle = props => {
+function ConfirmBattle(props) {
   return props.isLoading === true
   ? <Loading />
   : <MainContainer>
