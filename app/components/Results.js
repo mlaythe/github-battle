@@ -20,7 +20,7 @@ var StartOver = () => {
 function Results (props) {
   if (props.isLoading === true) {
     return (
-      <Loading text='Its a tie' />
+      <Loading text='Waiting on the world to change' />
     );
   }
 
